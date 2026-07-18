@@ -1109,9 +1109,43 @@ padding-top:130px;
 
 }
 
-.hero h1{
+.hero-grid{
 
-font-size:2.8rem;
+grid-template-columns:1fr;
+
+gap:40px;
+
+}
+
+.hero-name{
+
+font-size:3.6rem;
+
+}
+
+.hero-role{
+
+display:block;
+
+font-size:1.35rem;
+
+line-height:1.5;
+
+letter-spacing:0;
+
+margin-bottom:28px;
+
+}
+
+.hero-image{
+
+justify-content:center;
+
+}
+
+.hero-image img{
+
+max-width:320px;
 
 }
 
@@ -1124,6 +1158,7 @@ padding:90px 0;
 .section h2{
 
 font-size:2rem;
+
 margin-bottom:50px;
 
 }
