@@ -192,13 +192,19 @@ HERO
 
 .hero-role{
 
-    font-size:1.55rem;
+    display:flex;
+
+    align-items:center;
+
+    gap:22px;
+
+    font-size:1.9rem;
 
     font-weight:600;
 
     color:var(--accent);
 
-    letter-spacing:.02em;
+    letter-spacing:.03em;
 
     margin-bottom:42px;
 
