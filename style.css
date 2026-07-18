@@ -1081,9 +1081,9 @@ grid-template-columns:1fr;
 
 }
 
-.contact-grid{
+.contact-details{
 
-grid-template-columns:1fr;
+    max-width:100%;
 
 }
 
