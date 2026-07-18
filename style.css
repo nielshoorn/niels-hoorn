@@ -650,7 +650,9 @@ NEVENACTIVITEITEN
 
 .project-image{
 
-    width:100%;
+    width:calc(100% - 32px);
+    margin:16px auto 0;
+    border-radius:18px;
     aspect-ratio:16/9;
     object-fit:cover;
     transition:transform .6s ease;
@@ -659,7 +661,7 @@ NEVENACTIVITEITEN
 
 .project:hover .project-image{
 
-    transform:scale(1.03);
+    transform:scale(1.015);
 
 }
 
@@ -706,15 +708,6 @@ NEVENACTIVITEITEN
     color:#b5beca;
     font-size:1.05rem;
     line-height:1.85;
-
-}
-
-.project-content p.project-intro{
-
-    color:#ffffff;
-    font-size:1.38rem;
-    font-weight:600;
-    line-height:1.45;
 
 }
 
