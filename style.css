@@ -747,28 +747,45 @@ NEVENACTIVITEITEN
 
 .article-links{
 
-    margin-top:30px;
+    margin-top:34px;
     list-style:none;
 
 }
 
 .article-links li{
 
-    margin-bottom:16px;
+    margin-bottom:14px;
 
 }
 
 .article-links a{
 
-    color:var(--muted);
-    transition:.3s;
+    display:inline-flex;
+    align-items:center;
+
+    color:var(--accent);
+
+    font-weight:600;
+
+    transition:.25s ease;
+
+}
+
+.article-links a::before{
+
+    content:"↗";
+
+    margin-right:10px;
+
+    opacity:.7;
 
 }
 
 .article-links a:hover{
 
     color:white;
-    padding-left:6px;
+
+    transform:translateX(6px);
 
 }
 
