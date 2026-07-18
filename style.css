@@ -972,26 +972,43 @@ footer{
 ANIMATIES
 ===================================================== */
 
-.project,
-.job-content,
-.education-column,
-.activity,
-.contact-grid>div{
+body{
 
     opacity:0;
-    transform:translateY(30px);
-    animation:fadeUp .8s forwards;
+    transition:opacity .5s ease;
 
 }
 
-@keyframes fadeUp{
+body.loaded{
 
-    to{
+    opacity:1;
 
-        opacity:1;
-        transform:translateY(0);
+}
 
-    }
+.job-content,
+.project,
+.education-column,
+.activity,
+.contact-grid > div{
+
+    opacity:0;
+    transform:translateY(30px);
+    transition:
+        opacity .7s ease,
+        transform .7s ease;
+
+}
+
+.show{
+
+    opacity:1;
+    transform:translateY(0);
+
+}
+
+nav a.active{
+
+    color:white;
 
 }
 
