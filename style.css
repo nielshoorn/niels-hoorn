@@ -1137,3 +1137,49 @@ width:100%;
 }
 
 }
+
+/* =====================================================
+QUOTE
+===================================================== */
+
+.quote-section{
+
+    padding:70px 0 110px;
+
+}
+
+.portfolio-quote{
+
+    max-width:900px;
+
+    margin:0 auto;
+
+    text-align:center;
+
+}
+
+.portfolio-quote p{
+
+    font-size:2.25rem;
+
+    font-weight:700;
+
+    line-height:1.35;
+
+    letter-spacing:-.02em;
+
+    margin-bottom:22px;
+
+}
+
+.portfolio-quote footer{
+
+    font-size:1.3rem;
+
+    color:var(--muted);
+
+    font-style:italic;
+
+    font-weight:400;
+
+}
