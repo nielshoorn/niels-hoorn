@@ -178,15 +178,15 @@ HERO
 
 .hero-name{
 
-    font-size:5.2rem;
+    font-size:5.4rem;
 
-    line-height:.95;
+    line-height:.92;
 
     font-weight:800;
 
-    letter-spacing:-.05em;
+    letter-spacing:-.055em;
 
-    margin-bottom:18px;
+    margin-bottom:14px;
 
 }
 
@@ -212,9 +212,9 @@ HERO
 
 .hero-role span{
 
-    color:rgba(255,255,255,.35);
+        color:rgba(255,255,255,.28);
 
-    margin:0 12px;
+    margin:0;
 
 }
 
