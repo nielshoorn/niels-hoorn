@@ -129,7 +129,7 @@ HEADER
     letter-spacing:-0.02em;
 
     transition:color .3s ease;
-
+}
    .logo:hover{
 
     color:var(--accent);
@@ -986,7 +986,7 @@ body.loaded{
 .project,
 .education-column,
 .activity,
-.contact-grid > div{
+.contact-details{
 
     opacity:0;
     transform:translateY(30px);
