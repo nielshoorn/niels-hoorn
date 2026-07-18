@@ -691,11 +691,12 @@ NEVENACTIVITEITEN
 
 .project-intro{
 
-    font-size:1.38rem;
-    line-height:1.45;
+    font-size:1.42rem;
+    line-height:1.5;
     font-weight:600;
+    font-style:italic;
     color:#ffffff;
-    margin-bottom:26px;
+    margin-bottom:30px;
     max-width:850px;
 
 }
