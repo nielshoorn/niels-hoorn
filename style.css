@@ -141,7 +141,6 @@ nav ul{
     display:flex;
 
     gap:38px;
-on
     list-style:none;
 
 }
@@ -685,27 +684,36 @@ NEVENACTIVITEITEN
 .project h3{
 
     font-size:2rem;
-    margin-bottom:20px;
+    margin-bottom:18px;
     line-height:1.2;
 
 }
 
 .project-intro{
 
-    font-size:1.42rem;
-    line-height:1.5;
-    font-weight:500;
+    font-size:1.38rem;
+    line-height:1.45;
+    font-weight:600;
     color:#ffffff;
     margin-bottom:26px;
-    max-width:900px;
+    max-width:850px;
 
 }
 
 .project-content p{
 
     color:#b5beca;
-    font-size:1.04rem;
+    font-size:1.05rem;
     line-height:1.85;
+
+}
+
+.project-content p.project-intro{
+
+    color:#ffffff;
+    font-size:1.38rem;
+    font-weight:600;
+    line-height:1.45;
 
 }
 
@@ -1195,11 +1203,13 @@ margin-bottom:50px;
 
 .project-content{
 
-padding:30px;
+    padding:30px;
+
+}
 
 nav{
 
-display:block;
+    display:block;
 
 }
 
