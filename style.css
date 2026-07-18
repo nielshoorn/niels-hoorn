@@ -703,7 +703,9 @@ NEVENACTIVITEITEN
 
 .project-content p{
 
-    color:var(--muted);
+    color:#b5beca;
+    font-size:1.04rem;
+    line-height:1.85;
 
 }
 
