@@ -68,7 +68,7 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 document.querySelectorAll(
-    ".job-content, .project, .education-column, .activity, .contact-grid > div"
+    ".job-content, .project, .education-column, .activity, .contact-details"
 ).forEach(item => {
 
     observer.observe(item);
