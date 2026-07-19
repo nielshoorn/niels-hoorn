@@ -278,59 +278,6 @@ HERO
     box-shadow:0 20px 60px rgba(0,0,0,.35);
 
 }
-/* ==========================
-LOGO'S
-========================== */
-
-.logos{
-
-    padding:40px 0 110px;
-
-}
-
-.logos-title{
-
-    text-align:center;
-
-    color:var(--muted);
-
-    margin-bottom:38px;
-
-}
-
-.logo-grid{
-
-    display:grid;
-
-    grid-template-columns:repeat(5,1fr);
-
-    gap:50px;
-
-    align-items:center;
-
-}
-
-.logo-grid img{
-
-    max-height:42px;
-
-    margin:auto;
-
-    opacity:.7;
-
-    transition:var(--transition);
-
-    filter:grayscale(100%);
-
-}
-
-.logo-grid img:hover{
-
-    opacity:1;
-
-    filter:none;
-
-}
 
 /* ==========================
 SECTIONS
@@ -651,7 +598,7 @@ NEVENACTIVITEITEN
 .project-image{
 
     width:calc(100% - 32px);
-    margin:16px auto 0;
+    margin:24px auto 0;
     border-radius:18px;
     aspect-ratio:16/9;
     object-fit:cover;
@@ -765,7 +712,7 @@ NEVENACTIVITEITEN
     display:inline-flex;
     align-items:center;
 
-    color:var(--accent);
+    color:white;
 
     font-weight:600;
 
@@ -785,7 +732,7 @@ NEVENACTIVITEITEN
 
 .article-links a:hover{
 
-    color:white;
+    color:var(--accent);
 
     transform:translateX(6px);
 
@@ -1147,6 +1094,8 @@ font-size:3.2rem;
 
 line-height:.95;
 
+text-align:center;
+
 }
 
 .hero-role{
@@ -1161,8 +1110,15 @@ letter-spacing:0;
 
 margin-bottom:28px;
 
+text-align:center;
 }
 
+.lead,
+.hero-text{
+
+text-align:center;
+
+}
 .hero-image{
 
 justify-content:center;
@@ -1178,6 +1134,8 @@ margin-top:10px;
 width:100%;
 
 max-width:300px;
+
+margin:0 auto;
 
 }
 
@@ -1209,13 +1167,21 @@ nav{
 
 .header-inner{
 
+.header-inner{
+
 flex-direction:column;
+
+align-items:center;
+
+justify-content:center;
 
 height:auto;
 
 padding:18px 0;
 
 gap:14px;
+
+text-align:center;
 
 }
 
