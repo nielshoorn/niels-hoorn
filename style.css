@@ -236,7 +236,9 @@ HERO
     max-width:650px;
 
 }
-
+.hero-text-first{
+    margin-bottom:20px;
+}
 .hero-text{
 
     color:var(--muted);
