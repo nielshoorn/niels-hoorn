@@ -1138,7 +1138,7 @@ grid-template-columns:1fr;
 .job-year{
 
 position:static;
-margin-bottom:-20px;
+margin-bottom:-10px;
 
 }
 
@@ -1157,12 +1157,6 @@ grid-template-columns:1fr;
 .contact-details{
 
     max-width:100%;
-
-}
-
-.logo-grid{
-
-grid-template-columns:repeat(3,1fr);
 
 }
 
@@ -1260,14 +1254,26 @@ margin-bottom:50px;
     padding:30px;
 
 }
+.job-content::before{
 
+    left:-10px;
+
+}
+
+.job-content::after{
+
+    left:-5px;
+
+}
+
+   .job-content{
+    padding:28px 24px;
+}
 nav{
 
     display:block;
 
 }
-
-.header-inner{
 
 .header-inner{
 
@@ -1300,7 +1306,18 @@ flex-wrap:wrap;
 gap:18px;
 
 }
+.job{
 
+    grid-template-columns:1fr;
+    gap:20px;
+
+}
+
+.job-year{
+
+    margin-bottom:12px;
+
+}
 .contact-buttons{
 
 flex-direction:column;
