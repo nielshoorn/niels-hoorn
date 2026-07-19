@@ -254,6 +254,8 @@ HERO
     gap:18px;
    
    margin-top:18px;
+   
+   justify-content:center;
 }
 
 .hero-image{
@@ -899,6 +901,55 @@ PERSOONLIJK
     color:var(--muted);
 
 }
+
+/* ==========================
+BUTTONS
+========================== */
+
+.button{
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:14px 28px;
+
+    border-radius:999px;
+
+    font-weight:600;
+
+    transition:.3s ease;
+
+}
+
+.button.primary{
+
+    background:var(--accent);
+    color:white;
+
+}
+
+.button.primary:hover{
+
+    transform:translateY(-2px);
+    box-shadow:0 10px 30px rgba(79,141,255,.35);
+
+}
+
+.button.secondary{
+
+    border:1px solid rgba(255,255,255,.18);
+    color:white;
+
+}
+
+.button.secondary:hover{
+
+    border-color:var(--accent);
+    color:var(--accent);
+
+}
+
 /* =====================================================
 CONTACT
 ===================================================== */
@@ -964,7 +1015,8 @@ CONTACT
     display:flex;
     justify-content:center;
     gap:18px;
-
+   flex-wrap:wrap;
+   
 }
 
 /* =====================================================
