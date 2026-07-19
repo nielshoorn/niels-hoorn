@@ -252,7 +252,8 @@ HERO
     display:flex;
 
     gap:18px;
-
+   
+   margin-top:18px;
 }
 
 .hero-image{
