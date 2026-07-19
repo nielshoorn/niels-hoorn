@@ -848,7 +848,55 @@ OPLEIDINGEN
     color:var(--muted);
 
 }
+/* =====================================================
+PERSOONLIJK
+===================================================== */
 
+.personal{
+
+    text-align:center;
+
+}
+
+.personal-grid{
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:24px;
+    margin-top:50px;
+
+}
+
+.personal-item{
+
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:20px;
+    padding:34px 28px;
+    transition:.3s ease;
+
+}
+
+.personal-item:hover{
+
+    transform:translateY(-4px);
+    border-color:rgba(79,141,255,.35);
+
+}
+
+.personal-item span{
+
+    display:block;
+    font-size:2rem;
+    margin-bottom:16px;
+
+}
+
+.personal-item p{
+
+    color:var(--muted);
+
+}
 /* =====================================================
 CONTACT
 ===================================================== */
@@ -1184,7 +1232,11 @@ gap:14px;
 text-align:center;
 
 }
+.personal-grid{
 
+    grid-template-columns:1fr;
+
+}
 nav ul{
 
 justify-content:center;
