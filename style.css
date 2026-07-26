@@ -1337,6 +1337,18 @@ flex-direction:column;
 width:100%;
 
 }
+/* Mobiel: tijdlijn vereenvoudigen */
 
+.timeline::before {
+    display: none;
+}
+
+.timeline-dot {
+    display: none;
+}
+
+.timeline-item {
+    padding-left: 0;
+}
 }
 
