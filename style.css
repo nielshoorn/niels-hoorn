@@ -1323,7 +1323,7 @@ gap:18px;
 }
  .timeline{
 
-    padding-left:16px;
+    padding-left:0;
 
 }  
 .contact-buttons{
@@ -1337,18 +1337,14 @@ flex-direction:column;
 width:100%;
 
 }
-/* Mobiel: tijdlijn vereenvoudigen */
+/* Mobiel: tijdlijn uitzetten */
 
-.timeline::before {
+.job-content::before {
     display: none;
 }
 
-.timeline-dot {
+.job-content::after {
     display: none;
-}
-
-.timeline-item {
-    padding-left: 0;
 }
 }
 
